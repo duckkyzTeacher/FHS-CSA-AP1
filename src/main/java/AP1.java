@@ -1,4 +1,5 @@
-// AP1.java
+package src.main.java;
+
 public class AP1 {
     
     /**
