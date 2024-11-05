@@ -106,7 +106,7 @@ public class AP1 {
      * the 2nd to the 2nd and so on. Count the number of times that the 2 strings are non-empty and start with the same char. 
      * The strings may be any length, including 0.
      */
-    public int matchUp(int[] nums1, int[] nums2) {
+    public int matchUp(String[] a, String[] b) {
         return 0;
     }
 
