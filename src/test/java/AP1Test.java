@@ -100,7 +100,7 @@ public class AP1Test {
     @Test
     public void scoreUpTest() {
         assertEquals(6, ap1.scoreUp(new String[] {"a", "a", "b", "b"}, new String[] {"a", "c", "b", "c"}));
-        assertEquals(11, ap1.scoreUp(new String[] {"a", "a", "b", "b"}, new String[] {"a", "a", "b", "b"}));
+        assertEquals(11, ap1.scoreUp(new String[] {"a", "a", "b", "b"}, new String[] {"a", "a", "b", "c"}));
         assertEquals(16, ap1.scoreUp(new String[] {"a", "a", "b", "b"}, new String[] {"a", "a", "b", "b"}));
     }
 
